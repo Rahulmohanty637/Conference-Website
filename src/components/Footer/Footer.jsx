@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
 import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
-  FaLocationArrow,
-  FaMobileAlt,
 } from "react-icons/fa";
 
 export const Navlinks = [
@@ -34,7 +31,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-3 items-center">
           <div className="flex items-center justify-center gap-3">
-            <img src={Logo} alt="" className="w-16 " />
+            <img src="" alt="" className="w-16 " />
             <div>
               {/* Social Handle */}
               <div className="flex items-center gap-3">

@@ -11,8 +11,6 @@ import ImportantDates from "../../components/ImportantDates/ImportantDates";
 import RegistrationTable from "../../components/RegistrationInfo/RegistrationTable";
 import ChiefPatron from "../../components/OrganizingCommittee/ChiefPatron";
 import Patron from "../../components/OrganizingCommittee/Patron";
-import FinanceChair from "../../components/OrganizingCommittee/FinanceChair";
-import OrganizingChair from "../../components/OrganizingCommittee/OrganizingChair";
 
 const Home = () => {
   const comittee = {
@@ -111,8 +109,6 @@ const Home = () => {
       <RegistrationTable />
       <ChiefPatron />
       <Patron/>
-      {/* <FinanceChair/> */}
-      {/* <OrganizingChair/> */}
       <Footer />
     </div>
   );
